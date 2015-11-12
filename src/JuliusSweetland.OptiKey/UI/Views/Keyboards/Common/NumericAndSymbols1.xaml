@@ -213,23 +213,15 @@
                 <models:KeyValue String=";" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="3" Grid.Column="20" Grid.ColumnSpan="2"
+        <controls:Key Grid.Row="3" Grid.Column="20" Grid.ColumnSpan="4"
                       SymbolGeometry="{StaticResource AlphaIcon}"
                       Text="{x:Static resx:Resources.ALPHA}"
+                      WidthSpan="2"
                       SharedSizeGroup="KeyWithSymbol">
             <controls:Key.Value>
                 <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.AlphaKeyboard}" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="3" Grid.Column="22" Grid.ColumnSpan="2"
-                      SymbolGeometry="{StaticResource DiacriticsIcon}"
-                      Text="{x:Static resx:Resources.DIACRITICS}"
-                      SharedSizeGroup="KeyWithSymbol">
-            <controls:Key.Value>
-                <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.Diacritic1Keyboard}" />
-            </controls:Key.Value>
-        </controls:Key>
-
         <controls:Key Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
                       SymbolGeometry="{StaticResource ShiftIcon}"
                       Text="{x:Static resx:Resources.SHIFT}"
@@ -303,23 +295,15 @@
                 <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.BackMany}" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="4" Grid.Column="20" Grid.ColumnSpan="2"
+        <controls:Key Grid.Row="4" Grid.Column="20" Grid.ColumnSpan="4"
                       SymbolGeometry="{StaticResource NumericAndSymbolsIcon}"
                       Text="{x:Static resx:Resources.NUM_SYM_SPLIT_WITH_NEWLINE}"
+                      WidthSpan="2"
                       SharedSizeGroup="KeyWithSymbol">
             <controls:Key.Value>
                 <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.NumericAndSymbols1Keyboard}" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="4" Grid.Column="22" Grid.ColumnSpan="2"
-                      SymbolGeometry="{StaticResource CurrenciesIcon}"
-                      Text="{x:Static resx:Resources.CURRENCIES}"
-                      SharedSizeGroup="KeyWithSymbol">
-            <controls:Key.Value>
-                <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.Currencies1Keyboard}" />
-            </controls:Key.Value>
-        </controls:Key>
-
         <controls:Key Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
                       Text="{x:Static resx:Resources.CTRL}"
                       SharedSizeGroup="KeyWithDescription">
