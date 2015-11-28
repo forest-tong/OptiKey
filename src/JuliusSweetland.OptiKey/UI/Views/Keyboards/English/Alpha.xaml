@@ -261,13 +261,11 @@
                 <models:KeyValue String="m" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="3" Grid.Column="16" Grid.ColumnSpan="2" Grid.RowSpan="2"
-                      SymbolGeometry="{StaticResource TabIcon}" 
-                      Text="{x:Static resx:Resources.TAB}"
-                      HeightSpan="2"
-                      SharedSizeGroup="KeyWithSymbol">
+        <controls:Key Grid.Row="3" Grid.Column="16" Grid.ColumnSpan="2" Case="None"
+                      Text="."
+                      SharedSizeGroup="KeyWithSingleLetter">
             <controls:Key.Value>
-                <models:KeyValue String="&#x09;" />
+                <models:KeyValue String="." />
             </controls:Key.Value>
         </controls:Key>
         <controls:Key Grid.Row="3" Grid.Column="18" Grid.ColumnSpan="2" Grid.RowSpan="2"
@@ -345,11 +343,13 @@
                 <models:KeyValue String=" " />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="4" Grid.Column="14" Grid.ColumnSpan="2" Case="None"
-                      Text="."
-                      SharedSizeGroup="KeyWithSingleLetter">
+        <controls:Key Grid.Row="4" Grid.Column="14" Grid.ColumnSpan="4"
+                      SymbolGeometry="{StaticResource TabIcon}" 
+                      Text="{x:Static resx:Resources.TAB}"
+                      WidthSpan="2"
+                      SharedSizeGroup="KeyWithSymbol">
             <controls:Key.Value>
-                <models:KeyValue String="." />
+                <models:KeyValue String="&#x09;" />
             </controls:Key.Value>
         </controls:Key>
     </Grid>
