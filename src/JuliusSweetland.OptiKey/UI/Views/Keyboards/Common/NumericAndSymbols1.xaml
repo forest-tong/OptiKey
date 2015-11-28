@@ -113,7 +113,7 @@
                 <models:KeyValue String=":" />
             </controls:Key.Value>
         </controls:Key>
-        <controls:Key Grid.Row="2" Grid.Column="18" Grid.ColumnSpan="2"
+        <controls:Key Grid.Row="1" Grid.Column="18" Grid.ColumnSpan="2"
                       SymbolGeometry="{StaticResource 1of3Icon}"
                       Text="{x:Static resx:Resources.NEXT}"
                       SharedSizeGroup="KeyWithSymbol">
