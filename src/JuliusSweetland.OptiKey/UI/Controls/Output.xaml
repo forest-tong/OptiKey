@@ -35,6 +35,8 @@
             <ColumnDefinition Width="{Binding ScratchpadWidthInKeys, RelativeSource={RelativeSource AncestorType=controls:Output}, Converter={StaticResource ConvertToStarGridLength}}" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
         <controls:Key Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
@@ -55,6 +57,15 @@
                       SharedSizeGroup="KeyWithSymbol">
             <controls:Key.Value>
                 <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.Speak}" />
+            </controls:Key.Value>
+        </controls:Key>
+        <controls:Key Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2"
+                      SymbolGeometry="{StaticResource MenuIcon}"
+                      Text="{x:Static resx:Resources.MENU}"
+                      WidthSpan="2"
+                      SharedSizeGroup="KeyWithSymbol">
+            <controls:Key.Value>
+                <models:KeyValue FunctionKey="{x:Static enums:FunctionKeys.MenuKeyboard}" />
             </controls:Key.Value>
         </controls:Key>
     </Grid>
